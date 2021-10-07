@@ -1,0 +1,36 @@
+.parent{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    width: 800px;
+    height: 800px;
+}
+.title{
+ color: black;
+}
+.parentSelector{
+    display: grid;
+    place-items: center;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+.inner {
+background-color: rgba(255, 255, 255, 0.8);
+border: 1px solid rgba(0, 0, 0, 0.8);
+width: 100px;
+height: 100px;
+cursor: pointer;
+}
+
+#red,#blue,#green,#yellow,#pink{
+    /* background-color: red; */
+    width: 100px;
+    height: 100px;
+}
+.superparent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
